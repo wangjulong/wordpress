@@ -24,3 +24,6 @@ phpunit.phar
 # local phpunit config
 /phpunit.xml
 .vscode/settings.json
+
+# uploads folder
+/wp-content/uploads
