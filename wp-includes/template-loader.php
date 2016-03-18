@@ -78,6 +78,16 @@ if ( defined('WP_USE_THEMES') && WP_USE_THEMES ) :
 	else :
 		$template = get_index_template();
 	endif;
+
+	/**
+	 * wordpress花园 调试模式
+	 * 通过在具体的页面添加参数
+	 * ?tpl=die
+	 * 可以返回所调用的模版文件
+	 */
+    if($_GET[tpl]=='die'){
+        die($template);
+    }    
 	/**
 	 * Filter the path of the current template before including it.
 	 *
