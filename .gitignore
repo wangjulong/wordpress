@@ -26,4 +26,4 @@ phpunit.phar
 .vscode/settings.json
 
 # uploads folder
-/wp-content/uploads
+#/wp-content/uploads
